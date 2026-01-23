@@ -49,8 +49,8 @@ fn require_reservation_admin(env: &Env) -> Result<Address, ContractError> {
         .persistent()
         .get(&ADMIN)
         .ok_or(ContractError::NotInitialized)?;
-    let invoker = env.invoker();
-    if invoker != admin {
+    let caller = env.current_contract_address();
+    if caller != admin {
         return Err(ContractError::Unauthorized);
     }
     Ok(admin)
