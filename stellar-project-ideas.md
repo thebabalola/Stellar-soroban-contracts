@@ -22,6 +22,17 @@ If you made credit identity:
 - **NFT-based:** Identity as an asset.
 - **Privacy-aware:** Zero-knowledge proofs (ZK) for sensitive data.
 
+### 🛠 Tech Stack
+**Blockchain:** Soroban Rust SDK, Stellar Asset Contract (SAC), Stellar JS SDK, Contract Events + Storage
+**AI:** Python (FastAPI), XGBoost / LightGBM, Feature engineering from transaction history, Zero-knowledge proof integration (future phase)
+**Frontend:** Next.js, TypeScript, Tailwind, Wallet SDK (Freighter integration)
+
+### 🔖 Name Options
+- StellarID
+- XScore
+- StellarCred
+- XRepute
+
 ---
 
 ## 🧠 Rare / Underexplored Ideas
@@ -42,6 +53,18 @@ Build a portable on-chain business identity protocol:
 
 *This is not just credit scoring—it is economic presence tokenization.*
 
+### 🛠 Tech Stack
+**Blockchain:** Soroban contract for identity registry, Event indexing pipeline, Stellar accounts as identity anchors
+**AI:** Behavioral transaction modeling, Fraud detection model, Merchant stability prediction
+**Infrastructure:** Custom ingestion pipeline (RPC + indexing), PostgreSQL, Redis
+**Frontend:** Merchant dashboard, Public reputation explorer
+
+### 🔖 Name Options
+- StellarMarketID
+- XMerchant
+- StellarPresence
+- XTradeID
+
 ### 🔥 2. Stablecoin Volatility Shield for Weak Currencies
 
 **The Problem (Nigeria-specific):**
@@ -58,6 +81,18 @@ Build a Volatility Hedge Smart Contract acting as a "Micro hedge fund for regula
 
 *This is almost never built and is very aligned with Stellar’s asset model.*
 
+### 🛠 Tech Stack
+**Blockchain:** Soroban asset management contract, Yield allocation logic, Stellar liquidity integration
+**AI:** Time-series FX forecasting, Inflation modeling, Risk scoring engine
+**Data Sources:** Central bank APIs, FX feeds, Market price feeds
+**Frontend:** Portfolio dashboard, Risk visualization UI
+
+### 🔖 Name Options
+- StellarShield
+- XHedge
+- StellarHaven
+- XInflation
+
 ### 🔥 3. Decentralized Cooperative Governance Protocol (Not DAO)
 
 **Important Distinction:** Not a crypto DAO. An African-style cooperative, digitized.
@@ -71,6 +106,17 @@ Build a formal cooperative governance layer:
 - **Oversight:** AI flags governance anomalies or suspicious treasury movement.
 
 *This sector is very underexplored in Web3.*
+
+### 🛠 Tech Stack
+**Blockchain:** Soroban governance contract, Membership token (SAC-based), Profit distribution automation
+**AI:** Voting anomaly detection, Governance behavior clustering, Financial irregularity detection
+**Frontend:** Cooperative dashboard, Proposal voting interface, Financial transparency module
+
+### 🔖 Name Options
+- StellarCoop
+- XCooperative
+- StellarCollective
+- XUnion
 
 ### 🔥 4. Digital Export Settlement Rail for African SMEs
 
@@ -86,6 +132,17 @@ Build a smart contract-based export settlement system:
 
 *That combination is rare and offers institutional-grade impact.*
 
+### 🛠 Tech Stack
+**Blockchain:** Soroban escrow contract, Oracle integration, Asset settlement logic
+**AI:** Trade risk assessment, Counterparty risk modeling, Fraud detection
+**Infrastructure:** Shipping API integration, Customs data ingestion, Backend risk engine
+
+### 🔖 Name Options
+- StellarTradeRail
+- XExport
+- StellarSettle
+- XBorderTrade
+
 ### 🔥 5. Informal Savings Default Prediction Engine
 
 **The Problem:**
@@ -97,6 +154,17 @@ Everyone builds savings contracts. Nobody builds prediction models for *who* wil
 - **Dynamic Rules:** Risk-adjusted contribution requirements based on prediction score.
 
 *This adds a serious layer of financial intelligence to basic savings apps.*
+
+### 🛠 Tech Stack
+**Blockchain:** Soroban pooled savings contract, Event-based member tracking
+**AI:** Classification model for dropout risk, Contribution pattern analysis, Behavioral clustering
+**Frontend:** Group dashboard, Risk heatmap visualization
+
+### 🔖 Name Options
+- StellarAjo
+- XCircle
+- StellarTrustPool
+- XEsusu
 
 ### 🔥 6. Public Budget Transparency with AI Misuse Detection
 
@@ -110,6 +178,17 @@ Build a government/civic budget tracker layer:
 - **Anomaly Detection:** AI monitors disbursement patterns for signs of misuse or corruption.
 
 *Very few people build deep civic-chain infrastructure.*
+
+### 🛠 Tech Stack
+**Blockchain:** Soroban allocation contract, Milestone-based disbursement logic
+**AI:** Outlier detection, Pattern anomaly detection, Misuse probability scoring
+**Frontend:** Public explorer dashboard, Transparency analytics interface
+
+### 🔖 Name Options
+- StellarLedgerGov
+- XBudget
+- StellarWatch
+- XPublicFunds
 
 ---
 
