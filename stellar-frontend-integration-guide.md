@@ -21,6 +21,15 @@ Add the necessary packages to your project:
 npm install @stellar/freighter-api @stellar/stellar-sdk
 ```
 
+### 2.1 Prerequisites: Funding Your Test Wallet 💸
+
+Before you can send any transaction, your Freighter wallet needs testnet XLM.
+
+1.  Open Freighter and switch to **Testnet**.
+2.  Copy your wallet address.
+3.  Go to the [Stellar Laboratory Account Creator](https://laboratory.stellar.org/#account-creator?network=test).
+4.  Paste your address into the "Friendbot" section and click "Get Test Network XLM".
+
 ---
 
 ## 3. Wallet Connection (Freighter) 👛

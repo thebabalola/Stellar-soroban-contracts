@@ -33,6 +33,21 @@ Soroban contracts are written in **Rust** and compiled to **WebAssembly (Wasm)**
     ```
 3.  **Freighter Wallet:** The recommended browser extension for Stellar apps.
 
+### 2.1 Funding Your Wallet (The Faucet) 🚰
+
+You cannot deploy contracts without testnet tokens (XLM).
+
+1.  **Generate Identity:**
+    ```bash
+    soroban config identity generate alice
+    ```
+2.  **Fund Alice:**
+    Use Friendbot to fund your new identity on Testnet:
+    ```bash
+    curl "https://friendbot.stellar.org/?addr=$(soroban config identity address alice)"
+    ```
+    *Alternatively, go to the [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test) to create and fund accounts via UI.*
+
 ---
 
 ## 3. Core Concepts & Architecture 🏗️
